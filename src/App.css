@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+::selection{
+    color: #fff;
+    background: #A83D7B;
+}
+
+input:focus ~ .icon{
+    color: #A83D7B;
+  }
